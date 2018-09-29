@@ -1,0 +1,4 @@
+export PS1='[\u@\h \W]\$ '
+export MODULEPATH=/share/apps/compute/modulefiles/applications:$MODULEPATH
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/xihearch/git/magma/lib
+module load cuda/8.0
